@@ -36,7 +36,11 @@ Zusatzfunktionen:
 -	Für Sicherheitsrelevante Datenbanken oder zur Registrierung in andere Prozesse, Programme oder Sicherheitssoftware wird automatisch die Prüfsumme (SHA256) vor und nach dem Matching berechnet und bereitgestellt. 
 -	Ein Fortschrittsbalken wird in der untersten Zeile des Konsolenfensters in Kombination mit einer Zeitanzeige angezeigt. Der Fortschrittsbalken wird dynamisch an die Breite des Konsolenfensters angepasst. Die Zeitanzeige zeigt die berechnete Zeit, die der DB-Matcher vorraussichtlich noch für das Matching benötigt.
 -	Zu Diagnosezwecken wird die Anzahl an Array-zugriffen angezeigt
--	Der Benutzer wird zu jeder Zeit durch das Programm geführt und jede Eingabe ist betitelt 
+-	Der Benutzer wird zu jeder Zeit durch das Programm geführt und jede Eingabe ist betitelt
+
+*** Donations ***
+
+Ethereum: 
 
 
 
