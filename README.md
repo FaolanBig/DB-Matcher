@@ -39,6 +39,7 @@ Zusatzfunktionen:
 -	Der Benutzer wird zu jeder Zeit durch das Programm geführt und jede Eingabe ist betitelt 
 
 
+
     The DB-Matcher is an easy-to-use console application written in C# and based on the .NET framework. 
     The DB-Matcher can merge two databases in Excel format (*.xlsx, *.xls). 
     It follows the following algorithms in order of importance: Levenshtein distance, Hamming distance, Jaccard index. 
