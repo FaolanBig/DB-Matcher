@@ -1,10 +1,12 @@
 # DB-Matcher
 Database (Excel) matching program written in C# with .NET-Framework using nPoi
 
-*** English:
+*** English ***
+
 comming soon
 
-*** German: 
+*** German ***
+
 DB-Matcher
 Daten ---
 Programmiersprache:	Visual C#
