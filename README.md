@@ -1,7 +1,7 @@
 # DB-Matcher
 Database (Excel) matching program written in C# with .NET-Framework using nPoi
 
-**Installatioin**
+**Installation**
 
 1. Download one of the two compressed build-files (*.7z, *.zip)
 2. Extract the file to the target directory
