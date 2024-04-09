@@ -1,6 +1,14 @@
 # DB-Matcher
 Database (Excel) matching program written in C# with .NET-Framework using nPoi
 
+**Installatioin**
+
+1. Download one of the two compressed build-files (*.7z, *.zip)
+2. Extract the file to the target directory
+3. Run the executable
+
+**Describtion**
+
 *** English ***
 
 comming soon
@@ -38,18 +46,20 @@ Zusatzfunktionen:
 -	Zu Diagnosezwecken wird die Anzahl an Array-zugriffen angezeigt
 -	Der Benutzer wird zu jeder Zeit durch das Programm geführt und jede Eingabe ist betitelt
 
-*** Donations ***
+**Donations**
 
-Monero (XMR): 439avs1Cp5gcwWnxTqsicoJcvX5SiK69TdhumoXgULzVXYp94PJLbobAzKUPA9GkSqBdXP6cgRb4dEpSEGAgdUkTHjcVsaG
+    Monero (XMR): 439avs1Cp5gcwWnxTqsicoJcvX5SiK69TdhumoXgULzVXYp94PJLbobAzKUPA9GkSqBdXP6cgRb4dEpSEGAgdUkTHjcVsaG
 
-Polygon (MATIC): 0x8AA598780c6529DCB771B9455E2717043BB1a1e1
+    Polygon (MATIC): 0x8AA598780c6529DCB771B9455E2717043BB1a1e1
 
-Solana (SOL): 21BpX9xhkitMEWx2iBxGXEVsFCMF9huViud24NbrPqNC
+    Solana (SOL): 21BpX9xhkitMEWx2iBxGXEVsFCMF9huViud24NbrPqNC
 
-Ethereum (ETH): 0x8AA598780c6529DCB771B9455E2717043BB1a1e1
+    Ethereum (ETH): 0x8AA598780c6529DCB771B9455E2717043BB1a1e1
 
-Bitcoin (BTC): bc1q2ss7n5gv3tr68dfqtmcvy830pj4clf7wqxztk5
+    Bitcoin (BTC): bc1q2ss7n5gv3tr68dfqtmcvy830pj4clf7wqxztk5
 
+
+**Hold**
 
 
     The DB-Matcher is an easy-to-use console application written in C# and based on the .NET framework. 
