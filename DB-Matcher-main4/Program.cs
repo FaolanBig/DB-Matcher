@@ -592,7 +592,7 @@ namespace DB_Matching_main1
             //int primaryLastCellColumn = Convert.ToInt32(Console.ReadLine()) - 1;
             int primaryLastCellColumn = getIntOrDefault(primaryFirstCellColumn);
 
-            Console.Write($"Schlusstzelle Bereich 1 Zeilenwert (default: {getLastRowWithValue(workbook, sheetInput1, primaryFirstCellColumn) + 1}): ");
+            Console.Write($"Schlusszelle Bereich 1 Zeilenwert (default: {getLastRowWithValue(workbook, sheetInput1, primaryFirstCellColumn) + 1}): ");
             var holdConsoleInput1 = Console.ReadLine();
             int primaryLastCellRow = 0;
             if (string.IsNullOrEmpty(holdConsoleInput1)) { primaryLastCellRow = getLastRowWithValue(workbook, sheetInput1, primaryFirstCellColumn); }
@@ -641,7 +641,7 @@ namespace DB_Matching_main1
             //int secondaryLastCellColumn = Convert.ToInt32(Console.ReadLine()) - 1;
             int secondaryLastCellColumn = getIntOrDefault(getLastColumnWithValue(workbook, sheetInput2, secondaryFirstCellRow));
 
-            Console.Write($"Schlusstzelle Bereich 2 Zeilenwert (default: {getLastRowWithValue(workbook, sheetInput2, secondaryFirstCellColumn) + 1}): ");
+            Console.Write($"Schlusszelle Bereich 2 Zeilenwert (default: {getLastRowWithValue(workbook, sheetInput2, secondaryFirstCellColumn) + 1}): ");
             var holdConsoleInput2 = Console.ReadLine();
             int secondaryLastCellRow = 0;
             if (holdConsoleInput2 == null || holdConsoleInput2 == "") { secondaryLastCellRow = getLastRowWithValue(workbook, sheetInput2, secondaryFirstCellColumn); }
