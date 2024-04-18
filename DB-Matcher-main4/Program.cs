@@ -1039,20 +1039,6 @@ namespace DB_Matching_main1
                     //{
                     //Console.WriteLine("Anhang schreiben");
                     int columnHold = 0;
-                    if (varHold.useDataFile && (activePrimaryCellValueOld != null || activeSecondaryCellValueOld != null))
-                    {
-                        sheet = workbook.GetSheetAt(resultSheet);
-                        IRow rrow = sheet.GetRow(cnt);
-                        ICell ccell = rrow.CreateCell(resultColumn + (secondaryLastCellColumn - secondaryFirstCellColumn) + ++columnHold);
-                        cellValueTransferHold = $"PrimaryValueTransform (old --> new): {activePrimaryCellValueOld} --> {activePrimaryCellValue}";
-                        ccell.SetCellValue(cellValueTransferHold);
-
-                        sheet = workbook.GetSheetAt(resultSheet);
-                        rrow = sheet.GetRow(cnt);
-                        ccell = rrow.CreateCell(resultColumn + (secondaryLastCellColumn - secondaryFirstCellColumn) + ++columnHold);
-                        cellValueTransferHold = $"SecondaryValueTransform (old --> new): {activeSecondaryCellValueOld} --> {activeSecondaryCellValue}";
-                        ccell.SetCellValue(cellValueTransferHold);
-                    }
 
                     sheet = workbook.GetSheetAt(resultSheet);
                     IRow rrrow = sheet.GetRow(cnt);
@@ -1071,6 +1057,21 @@ namespace DB_Matching_main1
                     cccell = rrrow.CreateCell(resultColumn + (secondaryLastCellColumn - secondaryFirstCellColumn) + ++columnHold);
                     cellValueTransferHold = $"JD-Value: {activeMatchJaccardIndex}";
                     cccell.SetCellValue(cellValueTransferHold);
+
+                    if (varHold.useDataFile && (activePrimaryCellValueOld != null || activeSecondaryCellValueOld != null))
+                    {
+                        sheet = workbook.GetSheetAt(resultSheet);
+                        IRow rrow = sheet.GetRow(cnt);
+                        ICell ccell = rrow.CreateCell(resultColumn + (secondaryLastCellColumn - secondaryFirstCellColumn) + ++columnHold);
+                        cellValueTransferHold = $"PrimaryValueTransform (old --> new): {activePrimaryCellValueOld} --> {activePrimaryCellValue}";
+                        ccell.SetCellValue(cellValueTransferHold);
+
+                        sheet = workbook.GetSheetAt(resultSheet);
+                        rrow = sheet.GetRow(cnt);
+                        ccell = rrow.CreateCell(resultColumn + (secondaryLastCellColumn - secondaryFirstCellColumn) + ++columnHold);
+                        cellValueTransferHold = $"SecondaryValueTransform (old --> new): {activeSecondaryCellValueOld} --> {activeSecondaryCellValue}";
+                        ccell.SetCellValue(cellValueTransferHold);
+                    }
 
                     //workbook.Write(ffstream);
                     //ffstream.Close();
