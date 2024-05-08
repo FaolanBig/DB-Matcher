@@ -60,3 +60,7 @@ C:\Users\evely\OneDrive\Desktop\Big-Data\Big-Dienste\DB-Matcher\console\DB-trans
 C:\Users\evely\OneDrive\Desktop\Big-Data\Big-Dienste\DB-Matcher\console\DB-trans\Automatisierung\vC#\DB-Matching-main1-share\DB-Matcher-main4\obj\Debug\DB-Match.A09C477D.Up2Date
 C:\Users\evely\OneDrive\Desktop\Big-Data\Big-Dienste\DB-Matcher\console\DB-trans\Automatisierung\vC#\DB-Matching-main1-share\DB-Matcher-main4\obj\Debug\DB-Matcher-main4.exe
 C:\Users\evely\OneDrive\Desktop\Big-Data\Big-Dienste\DB-Matcher\console\DB-trans\Automatisierung\vC#\DB-Matching-main1-share\DB-Matcher-main4\obj\Debug\DB-Matcher-main4.pdb
+C:\Users\evely\OneDrive\Desktop\Big-Data\_git\pull\2024.05.08 - 1\DB-Matcher-main4\obj\Debug\DB-Matcher-main4.csproj.AssemblyReference.cache
+C:\Users\evely\OneDrive\Desktop\Big-Data\_git\pull\2024.05.08 - 1\DB-Matcher-main4\obj\Debug\DB-Matcher-main4.csproj.CoreCompileInputs.cache
+C:\Users\evely\OneDrive\Desktop\Big-Data\_git\pull\2024.05.08 - 1\DB-Matcher-main4\obj\Debug\DB-Matcher-main4.exe
+C:\Users\evely\OneDrive\Desktop\Big-Data\_git\pull\2024.05.08 - 1\DB-Matcher-main4\obj\Debug\DB-Matcher-main4.pdb

@@ -1239,7 +1239,9 @@ namespace DB_Matching_main1
             }
             //Console.Write(" " + text + " ");
             outputHold += $" {text} ";
-            for (int cnt = 0; cnt <= (Console.WindowWidth / 2 - strLenght / 2) - 2; cnt++)
+            int evenStr = 0;
+            if (strLenght % 2 != 0) { evenStr = 1; }
+            for (int cnt = 0; cnt <= (Console.WindowWidth / 2 - strLenght / 2) - 2 - evenStr; cnt++)
             {
                 //Console.Write("*");
                 outputHold += "*";
