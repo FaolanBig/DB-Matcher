@@ -11,7 +11,40 @@ Database (Excel) matching program written in C# with .NET-Framework using nPoi
 
 *** English ***
 
-comming soon
+DB-Matcher
+Data ---
+Programming language: Visual C#
+Ide: Visual Studio
+Length: ~1600 lines
+Interface: CMD / Terminal
+Platform: Windows 10/11
+Architecture: x64 (64bit)
+Primary algorithm: Levenshtein-Distance
+Secondary algorithm:	Hamming-Distance
+Tertiary algorithm: Jaccard index
+Summary ---
+Area of application: Merging two databases in Excel format (*.xlsx, *.xls)
+Basic function: The DB matcher calculates how similar a value from the primary database is to a value from the secondary database. It follows the following algorithm scheme: 
+
+    start --> LD
+    fails --> HD
+    fails --> JD
+
+Functions:
+- Definition of a separate database (using a wizard in DB-Matcher) in which known differences (e.g. company abbreviations) can be saved. These differences are taken into account during matching. The database created can also be edited externally. 
+- Create a backup copy of the Excel file to prevent data loss and increase convenience, as the original file can remain open in Excel without causing data stream conflicts.
+- Automatic dynamic determination of databases: The most likely desired table ranges are provided as default values during input. They can either be accepted by pressing ENTER or changed by entering text. The default values determined behave dynamically in relation to the input made and are updated in real time
+- Incorrect entries are recognised and reported back to the user.
+- The path entered is checked for authenticity
+- The DB-Matcher has several setting options, which are saved in a configuration file so that they do not have to be redefined each time it is started
+- Possible interrupt sequence when starting DB-Matcher
+- The databases do not have to be on the same worksheet. 
+- The results can be written from any column to any worksheet.
+- For the results, it is possible not only to write the checked values, but also to transfer the associated cells as well
+- For security-relevant databases or for registration in other processes, programmes or security software, the checksum (SHA256) is automatically calculated and provided before and after matching. 
+- A progress bar is displayed in the bottom line of the console window in combination with a time display. The progress bar is dynamically adjusted to the width of the console window. The time display shows the calculated time that the DB matcher will probably still need for matching.
+- The number of array accesses is displayed for diagnostic purposes
+- The user is guided through the programme at all times and each entry is labelled
 
 *** German ***
 
