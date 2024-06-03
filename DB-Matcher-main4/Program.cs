@@ -1083,6 +1083,8 @@ namespace DB_Matching_main1
             Console.WriteLine();
             if (writeResults) { printFittedSizeAsterixSurroundedText("SAVING"); }
 
+            stopwatch.Stop();
+
             //if (writeResults) { workbook.Write(ffstream); }
             workbook.Write(ffstream);
             ffstream.Close();
@@ -1097,7 +1099,7 @@ namespace DB_Matching_main1
 
             if (toggleConsoleBeep) { Console.Beep(); }
 
-            stopwatch.Stop();
+            //stopwatch.Stop();
             TimeSpan timeSpan = stopwatch.Elapsed;
             string timeSpanString = String.Format("{0:00}h:{1:00}m:{2:00}s:{3:00}ms", timeSpan.Hours, timeSpan.Minutes, timeSpan.Seconds, timeSpan.Milliseconds);
 
